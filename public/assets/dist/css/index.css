@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica'), url('public/assets/fonts/Helvetica.ttf') format('truetype');
+    }
+
+    @font-face {
+    font-family: 'Helvetica Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Helvetica Bold'), url('public/assets/fonts/Helvetica-Bold.ttf') format('truetype');
+    }
+    
+    .btn-s {
+      background-color:#5CB85F;
+      font-family: Helvetica Bold;
+      font-size: 14px;
+    }
+    .nav {
+      --bs-nav-link-color: black;
+    }
+    .nav-link {
+      font-family: Helvetica;
+      font-size: 14px;
+    }
+    .header {
+      --bs-nav-link-padding-x: 8.5rem;
+      --bs-nav-link-padding-y: 2rem;
+    }
+    .col-picture {
+      --bs-gutter-x: 0;
+      --bs-gutter-y: 0;
+      height: auto; 
+      padding: 0; 
+      margin: 0; 
+      padding-top: 2rem;
+    }
+
+    html, body {
+      overflow-x: hidden;
+    }
+    .container-profile {
+      background-color: #F1F3FF;
+    }
+    .container-description {
+      --bs-gutter-x: 10%;
+    }
+    .description-title {
+      font-family: Helvetica Bold;
+      font-size: 36px;
+    }
+    .description-content {
+      font-family: Helvetica;
+      font-size: 14px;
+    }
