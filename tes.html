@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Styling internal sementara saja :) nanti pindah eksternal -->
+  <style>
+    @font-face {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica'), url('assets/fonts/Helvetica.ttf') format('truetype');
+    }
+
+    @font-face {
+    font-family: 'Helvetica Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Helvetica Bold'), url('assets/fonts/Helvetica-Bold.ttf') format('truetype');
+    }
+    
+    .btn-s.btn.btn-success.rounded-1 {
+      background-color:#5CB85F;
+      font-family: Helvetica Bold;
+      font-size: 14px;
+    }
+    .nav.nav-pills {
+      --bs-nav-link-color: black;
+    }
+    .nav-link {
+      font-family: Helvetica;
+      font-size: 14px;
+    }
+    .container.header {
+      --bs-nav-link-padding-x: 8.5rem;
+      --bs-nav-link-padding-y: 2rem;
+    }
+    .col-md-6.text-end.col-picture {
+      --bs-gutter-x: 0;
+      --bs-gutter-y: 0;
+      height: auto; 
+      padding: 0; 
+      margin: 0; 
+      padding-top: 2rem;
+    }
+
+    html, body {
+      overflow-x: hidden;
+    }
+    .container-fluid.container-profile {
+      background-color: #F1F3FF;
+    }
+    .container.container-deskripsi {
+      --bs-gutter-x: 10%;
+    }
+    .display-5.fw-bold.text-body-emphasis.lh-1.mb-3.judul-deskripsi {
+      font-family: Helvetica Bold;
+      font-size: 36px;
+    }
+    .lead.isi-deskripsi {
+      font-family: Helvetica;
+      font-size: 14px;
+    }
+  </style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title Halaman -->
+        <title>Landing Page</title>
+        <!--Load Bootstrap-->
+        <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <!-- Body Halaman -->
+    <body>
+      <!-- Container Nav + Heroes -->
+      <div class="container-fluid container-profile">
+        <!-- Navbar -->
+        <div class="container header">
+          <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+            <!-- Tempat Logo -->
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+              <img src="assets/img/logo.png" loading="lazy">
+            </a>
+            <!-- Opsi Menu -->
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Our Services</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Why Us</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Testimonial</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+              <li class="nav-item">
+                <div class="container">
+                  <a href="#" class="btn-s btn btn-success rounded-1">Register</a>
+                </div></li>
+            </ul>
+          </header>
+        </div>
+        <!-- Heroes -->
+        <div class="row align-items-center">
+          <!-- Deskripsi -->
+          <div class="col">
+            <div class="container container-deskripsi">
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 judul-deskripsi">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+              <p class="lead isi-deskripsi">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+              <a href="#" class="btn-s btn btn-success rounded-1">Mulai Sewa Mobil</a>
+            </div>
+          </div>
+          <!-- Gambar -->
+          <div class="col-md-6 text-end col-picture">
+            <img src="assets/img/img_car.png" class="img-fluid" alt="Bootstrap Themes" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <!-- Load Java Script Bootstrap -->
+      <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
