@@ -2,14 +2,21 @@
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: normal;
-    src: local('Helvetica'), url('public/assets/fonts/Helvetica.ttf') format('truetype');
+    src: local('Helvetica'), url('../../fonts/Helvetica.ttf') format('truetype');
     }
 
     @font-face {
     font-family: 'Helvetica Bold';
     font-style: normal;
     font-weight: bold;
-    src: local('Helvetica Bold'), url('public/assets/fonts/Helvetica-Bold.ttf') format('truetype');
+    src: local('Helvetica Bold'), url('../../fonts/Helvetica-Bold.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Helvetica Light';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Helvetica Light'), url('../../fonts/Helvetica-Light.ttf'), format('truetype');
     }
     
     .btn-s {
@@ -36,6 +43,10 @@
       margin: 0; 
       padding-top: 2rem;
     }
+    .col-picture--service {
+        display: flex;
+        justify-content: space-around;
+    }
 
     html, body {
       overflow-x: hidden;
@@ -46,11 +57,33 @@
     .container-description {
       --bs-gutter-x: 10%;
     }
-    .description-title {
-      font-family: Helvetica Bold;
-      font-size: 36px;
+    .container-services {
+        padding-top: 100px;
+    }
+    .col-description {
+        padding-left: 8.5rem;
     }
     .description-content {
-      font-family: Helvetica;
-      font-size: 14px;
+        max-width: 468px;
+    }
+    .list-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .font__helvetica--small {
+        font-family: Helvetica;
+        font-size: 14px;
+    }
+    .font__helvetica--large--bold {
+        font-family: Helvetica Bold;
+        font-size: 36px;
+    }
+    .font__helvetica--medium--bold {
+        font-family: Helvetica Bold;
+        font-size: 24px;
+    }
+    .font__helvetica--small--light {
+        font-family: Helvetica Light;
+        font-size: 14px;
     }
