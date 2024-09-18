@@ -16,11 +16,45 @@
       <div class="container-fluid container-profile">
         <!-- Navbar -->
         <div class="container header">
-          <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+          <header class="d-flex flex-wrap justify-content-center py-3 mb-4 nav-header">
             <!-- Logo Goes Here -->
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
               <img src="public/assets/img/logo.png" loading="lazy">
             </a>
+            <!-- Navbar toggler (Hamburger button) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarNav" aria-controls="sidebarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 18H21" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 12H21" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 6H21" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <!-- Sidebar Navigation -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="sidebarNav">
+              <div class="offcanvas-header">
+                  <h5 class="offcanvas-title font__helvetica--small--bold" id="offcanvasLabel">BCR</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                          <a class="nav-link active font__helvetica--small" href="#our-services">Our Services</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link font__helvetica--small" href="#why-us">Why Us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link font__helvetica--small" href="#testimonial">Testimonial</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link font__helvetica--small" href="#faq">FAQ</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#" class="btn-s btn btn-success rounded-1">Register</a>
+                      </li>
+                  </ul>
+              </div>
+            </div>
             <!-- Menu Options -->
             <ul class="nav nav-pills">
               <li class="nav-item"><a href="#our-services" class="nav-link" aria-current="page">Our Services</a></li>
@@ -33,6 +67,7 @@
                 </div></li>
             </ul>
           </header>
+          
         </div>
         <!-- Heroes -->
         <div class="row align-items-center">
@@ -119,7 +154,7 @@
       <div class="container-fluid" id="why-us">
         <div class="container" id="featured-3">
           <!-- Why Us Header/Title -->
-          <div class="container">
+          <div class="container container-why-us">
             <p class="font__helvetica--medium--bold">Why Us?</p>
             <p class="font__helvetica--small--light">Mengapa harus pilih Binar Car Rental?</p>
           </div>
