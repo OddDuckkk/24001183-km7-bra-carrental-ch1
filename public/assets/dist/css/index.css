@@ -79,6 +79,10 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .container-faq {
+        padding-top: 20px;
+        padding-bottom: 100px;
+    }
     .testimonial {
         width: 70%;
         height: auto;
@@ -86,7 +90,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content:space-between;
-        
     }
     .col-picture--testimonial {
         width: 20%;
@@ -120,6 +123,13 @@
     .banner {
         background-color: #0D28A6;
         color: white;
+    }
+    .accordion {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-items: stretch;
+        gap: 16px;
     }
     .font__helvetica--small {
         font-family: Helvetica;
