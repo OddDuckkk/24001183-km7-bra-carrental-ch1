@@ -83,6 +83,26 @@
         padding-top: 20px;
         padding-bottom: 100px;
     }
+    .container-footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        padding-top: 20px;
+        padding-bottom: 100px;
+    }
+    .footer-adress {
+        width: 268px;
+    }
+    .footer-nav {
+        width: 79px;
+    }
+    .footer-social {
+        width: 268px;
+    }
+    .footer-copyright {
+        width: 268px;
+    }
     .testimonial {
         width: 70%;
         height: auto;
