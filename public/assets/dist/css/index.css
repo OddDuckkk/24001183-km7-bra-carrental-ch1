@@ -66,6 +66,39 @@
         flex-wrap: wrap;
         justify-content:space-around;
     }
+    .container-carousel {
+        max-width: 832px;
+        background-color: #F1F3FF;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .container-testimonial__title {
+        align-items: center;
+    }
+    .testimonial {
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        
+    }
+    .col-picture--testimonial {
+        width: 20%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .picture-testimonial {
+        width: 70px;
+        height: 80px;
+    }
+    .col-testimonial {
+        width: 77%;
+        display: flex;
+        flex-direction: column;
+    }
     .col-description {
         padding-left: 8.5rem;
     }
