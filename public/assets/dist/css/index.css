@@ -75,6 +75,10 @@
     .container-testimonial__title {
         align-items: center;
     }
+    .container-banner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
     .testimonial {
         width: 70%;
         height: auto;
@@ -113,9 +117,17 @@
         flex-direction: column;
         justify-content: space-between;
     }
+    .banner {
+        background-color: #0D28A6;
+        color: white;
+    }
     .font__helvetica--small {
         font-family: Helvetica;
         font-size: 14px;
+    }
+    .font__helvetica--large {
+        font-family: Helvetica;
+        font-size: 36px;
     }
     .font__helvetica--small--bold {
         font-family: Helvetica Bold;
